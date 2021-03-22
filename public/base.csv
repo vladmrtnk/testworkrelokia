@@ -1,0 +1,25 @@
+"Ticket ID",Description,Status,Priority,Agent,ID,"Agent Name","Agent Email","Contact ID","Contact Name","Contact Email","Group ID","Group Name","Company ID","Company Name",Comments
+1,"Здравствуйте, Vlad!
+
+Это ваш первый тикет. Поздравляем! Любой запрос клиента, отправленный через обслуживаемые вами каналы (электронную почту, чат, голосовую почту, веб-форму или твит), превратится в такой же тикет Support. Напишите ответ на этот тикет в пустом поле и нажмите кнопку «Отправить». Чтобы увидеть, как электронное письмо превращается в тикет, отправьте письмо на свой новый аккаунт support@mrtnk.zendesk.com. Ваш тикет появится на видах тикетов.
+",open,normal,admin,380359142158,"Vlad Martynyk",mrtnk.vlad@gmail.com,380359143538,Клиент,customer@example.com,360006235098,Поддержка,,,
+2,"Здравствуйте!
+У меня ужасная проблема, и без вас мне не справиться.
+Спасибо заранее!
+Клиент
+",open,normal,admin,380359142158,"Vlad Martynyk",mrtnk.vlad@gmail.com,380359143538,Клиент,customer@example.com,360006235098,Поддержка,,,
+3,"Здравствуйте!
+
+Вот пример письма с запросом клиента. Оно направлено на ваш адрес службы 
+поддержки. Когда оно придет, вы увидите его как тикет в Рабочем 
+пространстве агента.
+
+Отправьте письмо и посмотрите, как действует система обработки тикетов.",new,,,,,,380359142158,"Vlad Martynyk",mrtnk.vlad@gmail.com,360006235098,Поддержка,360411478638,mrtnk,
+4,"just ticket",new,,,,,,380359142158,"Vlad Martynyk",mrtnk.vlad@gmail.com,360006235098,Поддержка,360411478638,mrtnk,
+5,"This is test ticket #0",new,,,,,,380359142158,"Vlad Martynyk",mrtnk.vlad@gmail.com,360006235098,Поддержка,360411478638,mrtnk,
+6,"This is test ticket #2",solved,,admin,380359142158,"Vlad Martynyk",mrtnk.vlad@gmail.com,380359142158,"Vlad Martynyk",mrtnk.vlad@gmail.com,360006235098,Поддержка,360411478638,mrtnk,
+7,"This is test ticket #1",new,,,,,,380359142158,"Vlad Martynyk",mrtnk.vlad@gmail.com,360006235098,Поддержка,360411478638,mrtnk,
+9,body,new,,,,,,380359142158,"Vlad Martynyk",mrtnk.vlad@gmail.com,360006235098,Поддержка,360411478638,mrtnk,
+10,body,new,,,,,,380359142158,"Vlad Martynyk",mrtnk.vlad@gmail.com,360006235098,Поддержка,360411478638,mrtnk,
+11,body,new,,,,,,380359142158,"Vlad Martynyk",mrtnk.vlad@gmail.com,360006235098,Поддержка,360411478638,mrtnk,
+12,body,new,,,,,,380359142158,"Vlad Martynyk",mrtnk.vlad@gmail.com,360006235098,Поддержка,360411478638,mrtnk,

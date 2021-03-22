@@ -1,0 +1,13 @@
+{
+    "name": "vladik/tern",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+      "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    },
+    "description": ""
+}
