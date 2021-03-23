@@ -7,7 +7,7 @@ class Insert
     public static function InsertTitlesToFile($titles = [])
     {
 
-        $fp = fopen('public/base.csv', 'w');
+        $fp = fopen('public/file.csv', 'w');
 
         fputcsv($fp, $titles);
 
@@ -17,7 +17,7 @@ class Insert
     public static function InsertValuesToFile($values = [])
     {
 
-        $fp = fopen('public/base.csv', 'a');
+        $fp = fopen('public/file.csv', 'a');
 
         fputcsv($fp, $values);
 

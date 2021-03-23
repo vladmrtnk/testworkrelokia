@@ -8,10 +8,17 @@ $titles = [
     'Contact ID', 'Contact Name', 'Contact Email', 'Group ID', 'Group Name', 'Company ID',
     'Company Name', 'Comments'
 ];
-//Викликається метод для запису тайтлів в файл
-Insert::InsertTitlesToFile($titles);
 
-for($id = 1; ; $id++){
+//Якщо в кукі файлах немає збереженого id
+if (!isset($_COOKIE['lastId'])){
+    //Викликається метод для запису тайтлів в файл
+    Insert::InsertTitlesToFile($titles);
+    $id = 1;
+}
+else
+    $id = $_COOKIE['lastId'];
+
+for(;;$id++){
     $tickets = Query::GetTickets($id);
 
     if($tickets != 404){
@@ -39,6 +46,7 @@ for($id = 1; ; $id++){
         ];
 
         Insert::InsertValuesToFile($values);
-    }
 
+        setcookie('lastId', $id);
+    }
 }
